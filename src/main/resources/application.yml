@@ -1,0 +1,8 @@
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 2
+        max-size: 20
+        queue-capacity: 500
+      thread-name-prefix: AGAZIN-
